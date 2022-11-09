@@ -2,7 +2,7 @@ function init(){
     // create alert box containing text field
     function showName(){
         // get input information
-        var input=doscument.getElementById('entryinput');
+        var input=document.getElementById('entryinput');
         alert("Sophia Robles:"+input.value);
         // get output information 
         var ouput=document.getElementById('textoutput');
