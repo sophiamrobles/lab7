@@ -1,6 +1,6 @@
 function init(){
     // create alert box containing text field
-    function showName(){
+    function nameAlert(){
         // get input information
         var input=getElementById('entryinput').value;
         alert("Sophia Robles:"+input);
@@ -10,6 +10,6 @@ function init(){
     }
     // create button
     var button=document.getElementById('entrybutton');
-    button.addEventListener('click',showName);
+    button.addEventListener('click',nameAlert);
 }
     window.addEventListener('load', init);
