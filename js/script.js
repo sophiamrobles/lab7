@@ -1,11 +1,12 @@
 function init(){
-    //add your javascrip between these two lines of code
-     
-    
-    
-    
-    
-    
-    
-    
+    // create alert box containing text field
+    function showName(){
+        // get input information
+
+        // get output information 
+
+    }
+    // create button
+
+}
     window.addEventListener('load', init);
