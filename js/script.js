@@ -6,7 +6,7 @@ function init(){
         alert("Sophia Robles:"+input.value);
         // get output information 
         var ouput=document.getElementById('textoutput');
-        output.innerHTML=input.value;
+        output.innerHTML=input;
     }
     // create button
     var button=document.getElementById('entrybutton');
