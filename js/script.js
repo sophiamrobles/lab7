@@ -2,10 +2,10 @@ function init(){
     // create alert box containing text field
     function showName(){
         // get input information
-        var input=getElementById('entryinput').value;
-        alert("Sophia Robles:"+input);
+        var input=doscument.getElementById('entryinput');
+        alert("Sophia Robles:"+input.value);
         // get output information 
-        var ouput=getElementById('textoutput');
+        var ouput=document.getElementById('textoutput');
         output.innerHTML=input;
     }
     // create button
